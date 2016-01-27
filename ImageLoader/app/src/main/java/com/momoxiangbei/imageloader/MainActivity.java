@@ -3,15 +3,11 @@ package com.momoxiangbei.imageloader;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 
-import com.momoxiangbei.imageloader.ImageLoader.ImageLoader;
-import com.momoxiangbei.imageloader.ImageLoader.LoaderUtils;
 import com.momoxiangbei.imageloader.libcore.io.DiskLruCache;
 
 import java.io.BufferedInputStream;
